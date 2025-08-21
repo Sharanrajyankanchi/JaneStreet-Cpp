@@ -8,16 +8,10 @@ An input string is valid if:
 Examples :
 Input: s = "[{()}]"
 Output: true
-Explanation: All the brackets are well-formed.
 Input: s = "[()()]{}"
 Output: true
-Explanation: All the brackets are well-formed.
 Input: s = "([]"
 Output: false
-Explanation: The expression is not balanced as there is a missing ')' at the end.
-Input: s = "([{]})"
-Output: false
-Explanation: The expression is not balanced as there is a closing ']' before the closing '}'.
 Constraints:
 1 ≤ s.size() ≤ 106
 s[i] ∈ {'{', '}', '(', ')', '[', ']'}
