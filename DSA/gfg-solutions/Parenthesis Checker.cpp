@@ -22,7 +22,7 @@ public:
     bool isBalanced(string k) {
         string st; // acts like a stack
         for (char c : k) {
-            if (c == s'(' || c == '[' || c == '{') {
+            if (c == '(' || c == '[' || c == '{') {
                 st.push_back(c);
             } else {
                 if (st.empty()) return false;
