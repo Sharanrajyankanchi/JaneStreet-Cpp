@@ -1,5 +1,5 @@
 /*
-                                              /  Parenthesis Checker  /
+                                              /  2.Parenthesis Checker  /
 Difficulty: EasyAccuracy: 28.56%Submissions: 688K+Points: 2
 Given a string s, composed of different combinations of '(' , ')', '{', '}', '[', ']', verify the validity of the arrangement.
 An input string is valid if:
