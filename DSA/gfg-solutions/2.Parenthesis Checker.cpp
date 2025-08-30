@@ -16,7 +16,8 @@ Constraints:
 1 ≤ s.size() ≤ 106
 s[i] ∈ {'{', '}', '(', ')', '[', ']'}
 */
-
+#include<iostream>
+using namespace std;
 class Solution {
 public:
     bool isBalanced(string k) {
@@ -38,3 +39,15 @@ public:
         return st.empty();
     }
 };
+int main(){
+   Solution sol;
+    string s;
+    cout << "Enter a string of brackets: ";
+    cin >> s;
+    if (sol.isBalanced(s)) {
+        cout << "true" << endl;
+    } else {
+        cout << "false" << endl;
+    }
+    return 0;
+}
