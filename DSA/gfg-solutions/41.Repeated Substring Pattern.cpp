@@ -1,4 +1,4 @@
-                                      40.Repeated Substring Pattern
+                                      41.Repeated Substring Pattern
 /*
 Given a string s, check if it can be constructed by taking a substring of it and appending multiple copies of the substring together.
 Example 1:
