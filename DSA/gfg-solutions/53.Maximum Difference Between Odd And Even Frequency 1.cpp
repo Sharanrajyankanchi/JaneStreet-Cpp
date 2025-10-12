@@ -1,4 +1,4 @@
-                                    52.Maximum Difference Between Odd And Even Frequency 1
+                                    53.Maximum Difference Between Odd And Even Frequency 1
 /*
 You are given a string s consisting of lowercase English letters.
 Your task is to find the maximum difference diff = freq(a1) - freq(a2) between the frequency of characters a1 and a2 in the string such that:
