@@ -1,4 +1,4 @@
-                                      47Minimum Deletion For At Most k Distinct Characters
+                                      48 Minimum Deletion For At Most k Distinct Characters
 /*
 You are given a string s consisting of lowercase English letters, and an integer k.
 Your task is to delete some (possibly none) of the characters in the string so that the number of distinct characters in the resulting string is at most k.
