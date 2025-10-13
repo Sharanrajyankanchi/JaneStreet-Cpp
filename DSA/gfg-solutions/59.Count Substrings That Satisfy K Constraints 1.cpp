@@ -39,6 +39,7 @@ public:
                 if (s[j] == '0') zeros++;
                 else ones++;
                 if (zeros<=k|| ones<=k) count++;
+              else break;
             }
         }
         return count;
